@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f1f2f2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background: rgb(54,54,54);
+  background: linear-gradient(90deg, rgba(54,54,54,1) 0%, rgba(92,92,92,1) 100%);
+  z-index: 2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .navbar-brand img {
+  max-width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.nav-item .nav-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #f1f2f2;
+}
+
+.navbar-toggler {
+  background-color: #f1f2f2;
+}
+
+.navbar .navbar-nav:last-child {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.nav-item .nav-link svg {
+  height: 20px;
+  width: 20px;
+}
+
+.nav-item:last-child .nav-link svg {
+  height: 16px;
+  width: 16px;
+}
+
+.navbar .nav-item .nav-link:hover {
+  opacity: 0.75;
+}
+
+.hero-sect {
+  height: calc(100vh - var(--header-height));
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  color: #454d40;
+}
+
+/* #tsparticles {
+  position: relative;
+  z-index: -1;
+} */
+
+section {
+  z-index: 1;
+  position: relative;
+}
+
+.hero-sect .content {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.hero-sect .content h1 {
+  margin-bottom: 2em;
+}
+
+.hero-sect .content h1 img {
+  max-width: 400px;
+}
+
+.hero-sect .content p {
+  color: #bebebe;
+  font-size: 19px;
+}
+
+.hero-sect .navbar-nav {
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-sect .navbar-nav > li {
+  padding: 0 10px;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero-sect .navbar-nav > li a {
+  color: rgb(54,54,54);
+}
+
+.hero-sect .navbar-nav > li svg {
+  height: 30px;
+  width: 30px;
+}
+
+.hero-sect .navbar-nav > li:last-child svg {
+  height: 22.5px;
+  width: 22.5px;
+}
+
+.story .content {
+  max-width: 50rem;
+  margin: 0 auto 2rem;
+}
+
+.story .content h2 {
+  margin-bottom: 1.5em;
+}
+
+.story .content p {
+  font-size: 19px;
+  color: #bebebe;
+}
+
+.story .images .img-container {
+  padding-bottom: 20px;
+}
+
+.team-member {
+  margin: auto;
+  max-width: 480px;
+  border: 3px solid rgba(54,54,54, 0.75);
+  border-radius: 10px;
+  background: rgba(54,54,54, 0.5);
+  padding: 2rem;
+  position: relative;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  cursor: pointer;
+  box-shadow: 0 0 50px rgba(54,54,54, 0.5);
+}
+
+.team .row {
+  --bs-gutter-y: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar .navbar-nav:last-child {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hero-sect .content h1 {
+    margin-bottom: 1em;
+  }
+
+  .hero-sect .content h1 img {
+    max-width: 100%;
   }
 }
