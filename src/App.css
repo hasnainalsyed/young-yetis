@@ -47,7 +47,7 @@ body {
 
 h1, h2, h3, h4 {
   font-weight: bold;
-  color: #454d40;
+  color: #0071bc;
 }
 
 /* #tsparticles {
@@ -74,7 +74,7 @@ section {
 }
 
 .hero-sect .content p {
-  color: #bebebe;
+  color: #454d40;
   font-size: 19px;
 }
 
@@ -91,7 +91,7 @@ section {
 }
 
 .hero-sect .navbar-nav > li a {
-  color: rgb(54,54,54);
+  color: #454d40;
 }
 
 .hero-sect .navbar-nav > li svg {
@@ -115,7 +115,7 @@ section {
 
 .story .content p {
   font-size: 19px;
-  color: #bebebe;
+  color: #454d40;
 }
 
 .story .images .img-container {

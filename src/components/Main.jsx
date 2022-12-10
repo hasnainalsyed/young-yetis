@@ -6,15 +6,15 @@ function Main() {
   const images = [
     {
       name: 'page 1',
-      url: '/images/story-images/1.png'
+      url: '/images/story-images/1.webp'
     },
     {
       name: 'page 2',
-      url: '/images/story-images/2.png'
+      url: '/images/story-images/2.webp'
     },
     {
       name: 'page 3',
-      url: '/images/story-images/3.png'
+      url: '/images/story-images/3.webp'
     },
   ]
 
@@ -91,15 +91,17 @@ function Main() {
         <div className="team py-5">
           <div className="container py-5">
             <div className="row">
-              <div className="col-md-6">
-                <div className="team-member px-4">
+              <div className="col-md-6 text-center">
+                <div className="team-member px-4 mb-4 text-center">
                   <img src="/images/nicolas-botero.jpeg" alt="Nicolas Botero" className='img-fluid' />
                 </div>
+                <h3 className="name">Nicolas Botero</h3>
               </div>
-              <div className="col-md-6">
-                <div className="team-member px-4">
+              <div className="col-md-6 text-center">
+                <div className="team-member px-4 mb-4 text-center">
                   <img src="/images/david-botero.jpeg" alt="David Botero" className='img-fluid' />
                 </div>
+                <h3 className="name">David Botero</h3>
               </div>
             </div>
           </div>
