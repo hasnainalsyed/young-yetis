@@ -60,24 +60,6 @@ section {
   position: relative;
 }
 
-.hero-sect .content {
-  max-width: 50rem;
-  margin: 0 auto;
-}
-
-.hero-sect .content h1 {
-  margin-bottom: 2em;
-}
-
-.hero-sect .content h1 img {
-  max-width: 400px;
-}
-
-.hero-sect .content p {
-  color: #454d40;
-  font-size: 19px;
-}
-
 .hero-sect .navbar-nav {
   flex-direction: row;
   flex-wrap: nowrap;
@@ -122,6 +104,12 @@ section {
   padding-bottom: 20px;
 }
 
+.story .images .img-container img {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
 .team-member {
   margin: auto;
   max-width: 480px;
@@ -142,14 +130,6 @@ section {
 
 @media only screen and (max-width: 768px) {
   .navbar .navbar-nav:last-child {
-    display: none;
-  }
-
-  .hero-sect .content h1 {
-    margin-bottom: 1em;
-  }
-
-  .hero-sect .content h1 img {
-    max-width: 100%;
+    column-gap: 20px;
   }
 }

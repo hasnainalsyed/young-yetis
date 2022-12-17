@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="container">
         <a className="navbar-brand" href="/">
           <img
-            src="/images/logo.webp"
+            src="/images/logo.png"
             alt="Young Yetis"
             className="img-fluid"
           />
