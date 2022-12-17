@@ -23,9 +23,9 @@ function Main() {
         <div className="hero-sect">
           <div className="container h-100">
             <div className="row align-items-center h-100">
-              <div className="col-12 text-center">
-                <div className="content">
-                  <img src="/images/header.jpg" alt="Young Yetis" className='img-fluid' />
+              <div className="col-12 text-center h-100">
+                <div className="content h-100">
+                  <img src="/images/logo.png" alt="Young Yetis" className='img-fluid h-100 w-auto' />
                 </div>
               </div>
             </div>

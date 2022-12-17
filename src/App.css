@@ -43,6 +43,9 @@ body {
 
 .hero-sect {
   height: calc(100vh - var(--header-height));
+  background-image: url('/public/images/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4 {
@@ -58,32 +61,6 @@ h1, h2, h3, h4 {
 section {
   z-index: 1;
   position: relative;
-}
-
-.hero-sect .navbar-nav {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-sect .navbar-nav > li {
-  padding: 0 10px;
-  display: block;
-}
-
-.hero-sect .navbar-nav > li a {
-  color: #454d40;
-}
-
-.hero-sect .navbar-nav > li svg {
-  height: 30px;
-  width: 30px;
-}
-
-.hero-sect .navbar-nav > li:last-child svg {
-  height: 22.5px;
-  width: 22.5px;
 }
 
 .story .content {
@@ -105,7 +82,7 @@ section {
 }
 
 .story .images .img-container img {
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
   display: block;
 }
