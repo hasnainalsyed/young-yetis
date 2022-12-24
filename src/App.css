@@ -43,7 +43,7 @@ body {
 
 .hero-sect {
   height: calc(100vh - var(--header-height));
-  background-image: url('/public/images/header.jpg');
+  background-image: url('/public/images/header.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
