@@ -48,6 +48,22 @@ body {
   background-repeat: no-repeat;
 }
 
+.hero-sect .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100%;
+}
+
+.hero-sect .content img {
+  max-height: 100%;
+  width: auto;
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
 h1, h2, h3, h4 {
   font-weight: bold;
   color: #0071bc;
@@ -108,5 +124,19 @@ section {
 @media only screen and (max-width: 768px) {
   .navbar .navbar-nav:last-child {
     column-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .hero-sect {
+    background-image: url('/public/images/header-mobile.png');
+  }
+
+  .hero-sect .content img {
+    max-width: 100%;
+  }
+
+  .story .images .img-container img {
+    max-width: 80%;
   }
 }
